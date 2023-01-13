@@ -38,8 +38,8 @@ const seedDB = async()=>{
             title:`${sample(descriptors)} ${sample(places)}`,
             image:'https://images.unsplash.com/photo-1542438408-abb260104ef3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
             // 'https://api.unsplash.com/photos/?'
-            price:priceNew,
-            // description: 'this is the description'
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolores vero perferendis laudantium, consequuntur voluptatibus nulla architecto, sit soluta esse iure sed labore ipsam a cum nihil atque molestiae deserunt!',
+            price:priceNew
         })
         
         await camp.save();
